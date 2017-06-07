@@ -40,6 +40,7 @@ class WordPress_Tests_Files_FileNameUnitTest extends AbstractSniffUnitTest {
 		// Theme specific exceptions in a non-theme context.
 		'single-my_post_type.inc'                    => 1,
 		'taxonomy-post_format-post-format-audio.inc' => 1,
+		'content-my_post_type.inc' => 1,
 
 		/*
 		 * In /FileNameUnitTests/NonStrictClassNames.
